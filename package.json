@@ -1,0 +1,19 @@
+{
+  "name": "vecbot",
+  "version": "1.0.0",
+  "description": "Implementation of a simple telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ù"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "line-reader": "^0.4.0",
+    "telegraf": "^3.37.0"
+  }
+}
