@@ -48,10 +48,7 @@ bot.on('text',message =>
     if (messageFromClient.trim().toUpperCase() === vec.trim().toUpperCase())
     {
         var randomNumber= Math.random() * (lemmaArray.length - 1);
-        console.log(randomNumber);
         var randomIndex = Math.floor(randomNumber);
-        console.log(randomIndex);
-
         return message.reply(lemmaArray[randomIndex]);
 
     }
