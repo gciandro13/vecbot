@@ -1,6 +1,6 @@
 const Telegraf = require('telegraf');
 const assert = require('assert').strict;
-const bot = new Telegraf('1162765847:AAECFVX0gwUcE1Uscf2XXHXacOzl119Bgz8');
+const bot = new Telegraf('TOKEN_BOT');
 const vec = 'vec';
 const fs = require('fs');
 var lemmaArray = [];
