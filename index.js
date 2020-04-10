@@ -25,7 +25,7 @@ function readAllVecCommas(inputpath)
     catch (err) {
         console.error(err);
     }
-    }
+ }
 
 
 
@@ -54,6 +54,7 @@ bot.on('text',message =>
     }
     else
     {
-            return message.reply("Scrivi: vec");
+            console.log("message: " + messageFromClient.trim() + " from:" + message.from.id);
+            // return message.reply("Scrivi: vec");
     }
 });
