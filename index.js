@@ -14,10 +14,10 @@ function readAllVecCommas(inputpath)
         // read contents of the file
         const data = fs.readFileSync(inputpath, 'UTF-8');
     
-        // split the contents by new line
+        // split the contents by new line. 
         const lines = data.split(/\r?\n/);
     
-        // save all lines
+        // save all lines. Discard it
         lines.forEach((line) => {
             lemmaArray.push(line);
         });
