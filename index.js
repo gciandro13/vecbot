@@ -17,7 +17,7 @@ function readAllVecCommas(inputpath)
         // split the contents by new line. 
         const lines = data.split(/\r?\n/);
     
-        // save all lines. Where is the version control?
+        // save all lines
         lines.forEach((line) => {
             lemmaArray.push(line);
         });
